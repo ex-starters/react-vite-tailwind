@@ -318,6 +318,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.9.tgz#4595a29c2930c5157aa1be0963abbbac989647c9"
   integrity sha512-C4ZX+YFIp6+lPrru3tpH6Gaapy8IBRHw/e7l63fzGDhn/EaiGpQgbIlT5paByyy+oMvRFQoxxyvC4LE0AjJMqQ==
 
+"@fortawesome/fontawesome-free@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.2.1.tgz#344baf6ff9eaad7a73cff067d8c56bfc11ae5304"
+  integrity sha512-viouXhegu/TjkvYQoiRZK3aax69dGXxgEjpvZW81wIJdxm5Fnvp3VVIP4VHKqX4SvFw6qpmkILkD4RJWAdrt7A==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"
@@ -416,6 +421,18 @@
     magic-string "^0.27.0"
     react-refresh "^0.14.0"
 
+"@wixc3/board-core@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.npmjs.org/@wixc3/board-core/-/board-core-2.1.3.tgz"
+  integrity sha512-/sOie7eaefH9nCkV25Nuam0GoPaix/hYqz61OeAAStg1rMTNnM4Fo/TJUcYbdALAyG5Kebc06MLHlTHS6CPIIA==
+
+"@wixc3/react-board@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.npmjs.org/@wixc3/react-board/-/react-board-2.1.3.tgz"
+  integrity sha512-dmFf+6Kf/nhkL2ve7B1aEX4ic/r4BAC97/QO/FMviIejOT/5Yp3ZT+01HQRix+Icn/kbfpiQnSDqEjiYmNurUg==
+  dependencies:
+    "@wixc3/board-core" "^2.1.3"
+
 acorn-node@^1.8.2:
   version "1.8.2"
   resolved "https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz"
@@ -457,7 +474,7 @@ arg@^5.0.2:
 
 autoprefixer@^10.4.13:
   version "10.4.13"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.13.tgz#b5136b59930209a321e9fa3dca2e7c4d223e83a8"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.13.tgz"
   integrity sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==
   dependencies:
     browserslist "^4.21.4"
@@ -656,7 +673,7 @@ fill-range@^7.0.1:
 
 fraction.js@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
+  resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
 fsevents@~2.3.2:
@@ -706,9 +723,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 immutable@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
-  integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/immutable/-/immutable-4.2.0.tgz"
+  integrity sha512-h4ujZ0OZ3kpvdFcwJAHXEdvawH7J8TYTB62e8xI03OSZhuGpuPY9DPXnonMN8s+uQ56gMUqMK71mXU8ob20xfA==
 
 is-binary-path@~2.1.0:
   version "2.1.0"
@@ -815,7 +832,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
 
 normalize-range@^0.1.2:
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  resolved "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz"
   integrity sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==
 
 object-hash@^3.0.0:
@@ -969,9 +986,9 @@ run-parallel@^1.1.9:
     queue-microtask "^1.2.2"
 
 sass@^1.57.0:
-  version "1.57.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.57.0.tgz#64c4144ed4e1c0ccb96dc18aef2c424cdbc0c12b"
-  integrity sha512-IZNEJDTK1cF5B1cGA593TPAV/1S0ysUDxq9XHjX/+SMy0QfUny+nfUsq5ZP7wWSl4eEf7wDJcEZ8ABYFmh3m/w==
+  version "1.57.1"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.57.1.tgz"
+  integrity sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -1008,7 +1025,7 @@ supports-preserve-symlinks-flag@^1.0.0:
 
 tailwindcss@^3.2.4:
   version "3.2.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.4.tgz#afe3477e7a19f3ceafb48e4b083e292ce0dc0250"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.4.tgz"
   integrity sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==
   dependencies:
     arg "^5.0.2"
