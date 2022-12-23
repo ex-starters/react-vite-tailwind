@@ -1,4 +1,4 @@
-# react vite tailwind scss
+# react vite tailwind scss font-awsome
 
 ```
     "autoprefixer": "^10.4.13",
@@ -6,4 +6,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.57.0"
+    "@fortawesome/fontawesome-free": "^6.2.1",
 ```
